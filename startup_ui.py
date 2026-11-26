@@ -417,7 +417,7 @@ class ProjectHome(tk.Toplevel):
         super().__init__(app)
         self.app = app
         self.store = store
-        self.title('Проектировщик кустовых площадок — Хребет v93c — Мои проекты')
+        self.title('Проектировщик кустовых площадок — Хребет v93d — Мои проекты')
         self.configure(background=PALETTE['window'])
         self.geometry('1050x670')
         self.after_idle(lambda:center_window(self))
@@ -431,7 +431,7 @@ class ProjectHome(tk.Toplevel):
         background=ttk.Frame(self,padding=26)
         background.pack(fill='both',expand=True)
         ttk.Label(background,text='МОИ ПРОЕКТЫ',font=('Segoe UI',23,'bold'),foreground=PALETTE["text"]).pack(anchor='w')
-        ttk.Label(background,text='Кустовые площадки  ·  Хребет v93c  ·  Вид сверху  ·  Без плит',
+        ttk.Label(background,text='Кустовые площадки  ·  Хребет v93d  ·  Вид сверху  ·  Без плит',
                   foreground=PALETTE["muted"],font=('Segoe UI',11)).pack(anchor='w',pady=(4,22))
         commands=ttk.Frame(background)
         commands.pack(fill='x',pady=(0,17))

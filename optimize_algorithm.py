@@ -377,11 +377,16 @@ def _anchor_candidates(links):
 
 
 def near_parallel_groups(links):
-    """Пары/группы вертикалей с перекрытием и разносом в (0,30 … 3] м.
+    """Пары/группы вертикалей с перекрытием и разносом до NEAR_PARALLEL_MAX_M.
 
     Типичный баг на чертеже: magenta врезка и соседняя нитка идут почти
     рядом, у каждой свой ряд плит 1,2×3. На одну плиту при текущем разносе
     не влезают (span>~1,0 м), но стянуть до 0,30 м почти всегда дешевле.
+
+    Важно: скважины 9 и 10 после «Рассчитать» часто уже на ОДНОЙ оси
+    (sep≈0), а врезка — в 4–5 м. Их нельзя терять из группы из‑за
+    `sep < AXIS_GAP`: иначе nudge стягивает только 9+врезку и оставляет
+    второй ряд плит у 10.
     """
     rows = []
     for i, q in enumerate(links):
@@ -399,22 +404,38 @@ def near_parallel_groups(links):
             continue
         group = [(i, q, u, lo, hi)]
         used.add(i)
-        for b in range(a + 1, len(rows)):
-            j, q2, u2, lo2, hi2 = rows[b]
-            if j in used:
-                continue
-            overlap = min(hi, hi2) - max(lo, lo2)
-            if overlap < NEAR_PARALLEL_OVERLAP_M:
-                continue
-            sep = abs(u - u2)
-            if sep < AXIS_GAP - 1e-6 or sep > NEAR_PARALLEL_MAX_M + 1e-6:
-                continue
-            # разные среды (или уже почти пучок)
-            media = {q.medium for _, q, *_ in group} | {q2.medium}
-            if len(media) < 2 and sep > 1e-3:
-                continue
-            group.append((j, q2, u2, lo2, hi2))
-            used.add(j)
+        # Расширяем группу, пока находятся новые участники (в т.ч. соседи
+        # с sep≈0 на уже собранной оси).
+        changed = True
+        while changed:
+            changed = False
+            g_us = [g[2] for g in group]
+            g_lo = min(g[3] for g in group)
+            g_hi = max(g[4] for g in group)
+            g_media = {g[1].medium for g in group}
+            for b in range(len(rows)):
+                j, q2, u2, lo2, hi2 = rows[b]
+                if j in used:
+                    continue
+                overlap = min(g_hi, hi2) - max(g_lo, lo2)
+                if overlap < NEAR_PARALLEL_OVERLAP_M:
+                    continue
+                sep = min(abs(u2 - gu) for gu in g_us)
+                if sep > NEAR_PARALLEL_MAX_M + 1e-6:
+                    continue
+                # Сосед на той же оси (другая среда) — всегда в пучок.
+                same_axis = sep < 1e-3
+                if same_axis and q2.medium in g_media:
+                    continue
+                if not same_axis and sep < AXIS_GAP - 1e-6:
+                    continue
+                if not same_axis and q2.medium in g_media and sep > 1e-3:
+                    continue
+                if len(g_media | {q2.medium}) < 2 and not same_axis:
+                    continue
+                group.append((j, q2, u2, lo2, hi2))
+                used.add(j)
+                changed = True
         if len({g[1].medium for g in group}) >= 2 and len(group) >= 2:
             groups.append(group)
     return groups
@@ -589,7 +610,7 @@ def run_optimization_search(project, survey, core_result, pool, *,
     survey = survey or make_survey(project)
     slots = list(pool.keys())
     report = {
-        'mode': 'transit_magistral_v93c_union',
+        'mode': 'transit_magistral_v93d_one_row',
         'slots': slots,
         'pool_counts': {k: len(v) for k, v in pool.items()},
         'trials': 0,
@@ -674,6 +695,47 @@ def run_optimization_search(project, survey, core_result, pool, *,
             break
         consider(trial, f'nudge_final:{tag}')
 
+    # === 1c. Принудительный полный пучок: если ещё ≥2 ряда плит — стянуть ===
+    # Preference: minimize cost → один коридор 0,30 м с общими плитами.
+    def _multi_row_span(links):
+        us = []
+        for q in links:
+            span = _vertical_span(q)
+            if not span:
+                continue
+            _u, lo, hi = span
+            if hi - lo < NEAR_PARALLEL_OVERLAP_M:
+                continue
+            us.append(span[0])
+        if len(us) < 2:
+            return 0.0
+        return max(us) - min(us)
+
+    if (_multi_row_span(best_links) > AXIS_GAP + 1e-6
+            and getattr(project, 'shared_corridors', True)):
+        for tag, trial in magistral_proposals(best_links, project):
+            if 'full@' not in tag and 'wells+tie@' not in tag:
+                continue
+            if _multi_row_span(trial) > TRANSIT_WIDTH + 1e-6:
+                continue
+            if trials >= limit:
+                # даже при исчерпанном лимите — одна попытка дешёвого пучка
+                cost = combo_external_cost(trial, project)
+                if cost + 1e-6 < best_cost:
+                    best_cost = cost
+                    best_links = list(trial)
+                    improved += 1
+                    trials += 1
+                    trial_log.append({
+                        'n': trials, 'kind': f'force_collapse:{tag}',
+                        'cost': round(cost, 2), 'accepted': True,
+                        'sources': [q.source for q in trial],
+                        'axes': [round(_dominant_vertical_u(q) or q.end.u, 3)
+                                 for q in trial],
+                    })
+                break
+            consider(trial, f'force_collapse:{tag}')
+
     # === 2. Одиночные замены из пула (тонкая подстройка) ===
     for i, slot in enumerate(slots):
         if trials >= limit:
@@ -709,6 +771,98 @@ def run_optimization_search(project, survey, core_result, pool, *,
                     if trials >= limit:
                         break
                     consider(packed, f'magistral_pair:{tag}')
+
+    # === 4. Финальный collapse: после замен из пула снова могли остаться два ряда ===
+    if (_multi_row_span(best_links) > AXIS_GAP + 1e-6
+            and getattr(project, 'shared_corridors', True)):
+        collapse = []
+        for tag, trial in magistral_proposals(best_links, project):
+            if 'full@' not in tag and 'wells+tie@' not in tag:
+                continue
+            if _multi_row_span(trial) > TRANSIT_WIDTH + 1e-6:
+                continue
+            collapse.append((combo_external_cost(trial, project), tag, trial))
+        collapse.sort(key=lambda t: t[0])
+        for cost, tag, trial in collapse[:12]:
+            if cost + 1e-6 >= best_cost:
+                break
+            best_cost = cost
+            best_links = list(trial)
+            improved += 1
+            trials += 1
+            if len(trial_log) < 120:
+                trial_log.append({
+                    'n': trials, 'kind': f'final_collapse:{tag}',
+                    'cost': round(cost, 2), 'accepted': True,
+                    'sources': [q.source for q in trial],
+                    'axes': [round(_dominant_vertical_u(q) or q.end.u, 3)
+                             for q in trial],
+                })
+            break
+
+    # === 5. Жёсткий коридор 0,30 м: «рыхлый» пучок (разнос ~1 м на одной
+    # плите) дешевле по смете, но визуально/по правилу — два ряда.
+    # Переписываем пересекающиеся вертикали через build_magistral.
+    if getattr(project, 'shared_corridors', True) and len(best_links) >= 2:
+        def _axis_gaps(links):
+            us = sorted({round(_dominant_vertical_u(q) or q.end.u, 4)
+                         for q in links if _vertical_span(q)})
+            if len(us) < 2:
+                return ()
+            return tuple(us[i + 1] - us[i] for i in range(len(us) - 1))
+
+        gaps = _axis_gaps(best_links)
+        loose = any(g > AXIS_GAP + 0.05 for g in gaps) and (
+            max(_dominant_vertical_u(q) or q.end.u for q in best_links)
+            - min(_dominant_vertical_u(q) or q.end.u for q in best_links)
+            <= TRANSIT_WIDTH + 1e-6)
+        if loose or (_multi_row_span(best_links) > AXIS_GAP + 1e-6):
+            tight = []
+            for tag, trial in magistral_proposals(best_links, project):
+                if 'full@' not in tag and 'wells+tie@' not in tag:
+                    continue
+                tg = _axis_gaps(trial)
+                if not tg or max(tg) > AXIS_GAP + 0.05:
+                    continue
+                if _multi_row_span(trial) > (len({q.medium for q in trial}) - 1) * AXIS_GAP + 0.05:
+                    continue
+                tight.append((combo_external_cost(trial, project), tag, trial))
+            # якоря вокруг текущего центра — минимальный сдвиг трубы
+            us_now = [_dominant_vertical_u(q) for q in best_links
+                      if _dominant_vertical_u(q) is not None]
+            if us_now:
+                mid = 0.5 * (min(us_now) + max(us_now))
+                for c in (mid, min(us_now), max(us_now),
+                          mid - AXIS_GAP, mid + AXIS_GAP):
+                    packed = build_magistral(best_links, c)
+                    if not packed:
+                        continue
+                    tg = _axis_gaps(packed)
+                    if not tg or max(tg) > AXIS_GAP + 0.05:
+                        continue
+                    by = {q.source: q for q in packed}
+                    trial = [by.get(q.source, q) for q in best_links]
+                    tight.append((combo_external_cost(trial, project),
+                                  f'tight@{c:.2f}', trial))
+            tight.sort(key=lambda t: t[0])
+            if tight:
+                cost, tag, trial = tight[0]
+                # Принимаем плотный пучок: он чуть дороже «рыхлого», но
+                # это требование коридора 0,30 м / одного ряда плит.
+                # Не хуже независимой базы.
+                if cost <= base_indep + 1e-6:
+                    best_cost = cost
+                    best_links = list(trial)
+                    improved += 1
+                    trials += 1
+                    if len(trial_log) < 120:
+                        trial_log.append({
+                            'n': trials, 'kind': f'tight_corridor:{tag}',
+                            'cost': round(cost, 2), 'accepted': True,
+                            'sources': [q.source for q in trial],
+                            'axes': [round(_dominant_vertical_u(q) or q.end.u, 3)
+                                     for q in trial],
+                        })
 
     # --- Сборка результата ---
     result = deepcopy(core_result)
@@ -778,14 +932,15 @@ def run_optimization_search(project, survey, core_result, pool, *,
                 joined.append(q.source)
 
     result.decision_trace['_external_optimization'] = {
-        'mode': 'transit_magistral_v93c_union',
+        'mode': 'transit_magistral_v93d_one_row',
         'trials': trials,
         'improved': improved,
         'independent_cost': round(base_indep, 2),
         'optimized_cost': round(best_cost, 2),
         'saving': round(max(0.0, base_indep - best_cost), 2),
-        'sharing': 'transit_magistral_0.30; shared_1.2x3_plates_once; same_medium_pipe_once',
+        'sharing': 'transit_magistral_0.30; shared_1.2x3_plates_once; one_plate_row',
         'magistral_span_m': round(pack_span, 4),
+        'vertical_plate_rows': len({round(u, 2) for u in axes}),
         'joined_with_tie': joined,
         'chosen': chosen_rows,
         'global_optimality_proven': False,
