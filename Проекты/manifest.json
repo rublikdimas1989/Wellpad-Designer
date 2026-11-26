@@ -1,0 +1,4378 @@
+[
+  {
+    "id": 1,
+    "file": "project_test_001_40a73622.json",
+    "name": "Тест-001_ось8_вне4",
+    "n_axis": 8,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        125.11,
+        161.7
+      ],
+      [
+        106.2,
+        169.66
+      ],
+      [
+        144.63,
+        151.6
+      ],
+      [
+        155.43,
+        194.31
+      ]
+    ],
+    "tie": [
+      177.57,
+      209.18
+    ],
+    "fire": [
+      116.45,
+      60.27
+    ]
+  },
+  {
+    "id": 2,
+    "file": "project_test_002_aa9eeafa.json",
+    "name": "Тест-002_ось5_вне3",
+    "n_axis": 5,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        122.9,
+        124.05
+      ],
+      [
+        104.08,
+        190.45
+      ],
+      [
+        117.9,
+        186.83
+      ]
+    ],
+    "tie": [
+      200.5,
+      195.33
+    ],
+    "fire": [
+      111.76,
+      52.89
+    ]
+  },
+  {
+    "id": 3,
+    "file": "project_test_003_c594c379.json",
+    "name": "Тест-003_ось9_вне4",
+    "n_axis": 9,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        145.99,
+        162.62
+      ],
+      [
+        134.48,
+        178.05
+      ],
+      [
+        160.71,
+        175.03
+      ],
+      [
+        135.27,
+        145.54
+      ]
+    ],
+    "tie": [
+      242.12,
+      216.93
+    ],
+    "fire": [
+      120.49,
+      59.68
+    ]
+  },
+  {
+    "id": 4,
+    "file": "project_test_004_5e00b4bf.json",
+    "name": "Тест-004_ось7_вне2",
+    "n_axis": 7,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        139.64,
+        159.97
+      ],
+      [
+        112.27,
+        142.97
+      ]
+    ],
+    "tie": [
+      189.46,
+      183.97
+    ],
+    "fire": [
+      113.65,
+      49.74
+    ]
+  },
+  {
+    "id": 5,
+    "file": "project_test_005_142c03a9.json",
+    "name": "Тест-005_ось10_вне4",
+    "n_axis": 10,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        192.08,
+        138.13
+      ],
+      [
+        171.78,
+        141.82
+      ],
+      [
+        153.8,
+        125.99
+      ],
+      [
+        98.87,
+        166.59
+      ]
+    ],
+    "tie": [
+      236.9,
+      202.51
+    ],
+    "fire": [
+      116.24,
+      62.38
+    ]
+  },
+  {
+    "id": 6,
+    "file": "project_test_006_8ae83bed.json",
+    "name": "Тест-006_ось7_вне2",
+    "n_axis": 7,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        134.67,
+        154.19
+      ],
+      [
+        120.73,
+        126.16
+      ]
+    ],
+    "tie": [
+      223.14,
+      210.74
+    ],
+    "fire": [
+      120.78,
+      58.77
+    ]
+  },
+  {
+    "id": 7,
+    "file": "project_test_007_32f52d9b.json",
+    "name": "Тест-007_ось9_вне4",
+    "n_axis": 9,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        125.43,
+        181.72
+      ],
+      [
+        140.42,
+        158.9
+      ],
+      [
+        112.74,
+        165.9
+      ],
+      [
+        95.0,
+        161.12
+      ]
+    ],
+    "tie": [
+      170.91,
+      195.85
+    ],
+    "fire": [
+      118.83,
+      52.08
+    ]
+  },
+  {
+    "id": 8,
+    "file": "project_test_008_e6c7c20e.json",
+    "name": "Тест-008_ось9_вне4",
+    "n_axis": 9,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        161.88,
+        142.46
+      ],
+      [
+        183.08,
+        185.53
+      ],
+      [
+        127.51,
+        134.04
+      ],
+      [
+        117.82,
+        144.08
+      ]
+    ],
+    "tie": [
+      190.56,
+      168.93
+    ],
+    "fire": [
+      115.48,
+      59.35
+    ]
+  },
+  {
+    "id": 9,
+    "file": "project_test_009_a844bc18.json",
+    "name": "Тест-009_ось8_вне2",
+    "n_axis": 8,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        123.96,
+        146.23
+      ],
+      [
+        129.65,
+        125.92
+      ]
+    ],
+    "tie": [
+      210.3,
+      199.82
+    ],
+    "fire": [
+      118.68,
+      50.8
+    ]
+  },
+  {
+    "id": 10,
+    "file": "project_test_010_0028f2cc.json",
+    "name": "Тест-010_ось10_вне4",
+    "n_axis": 10,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        180.62,
+        187.75
+      ],
+      [
+        110.41,
+        162.4
+      ],
+      [
+        163.65,
+        175.11
+      ],
+      [
+        95.92,
+        193.75
+      ]
+    ],
+    "tie": [
+      243.35,
+      192.53
+    ],
+    "fire": [
+      119.42,
+      63.44
+    ]
+  },
+  {
+    "id": 11,
+    "file": "project_test_011_e5facd51.json",
+    "name": "Тест-011_ось7_вне5",
+    "n_axis": 7,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        133.86,
+        130.53
+      ],
+      [
+        156.81,
+        136.05
+      ],
+      [
+        151.26,
+        174.79
+      ],
+      [
+        101.12,
+        129.32
+      ],
+      [
+        98.14,
+        143.66
+      ]
+    ],
+    "tie": [
+      156.44,
+      196.12
+    ],
+    "fire": [
+      108.44,
+      50.36
+    ]
+  },
+  {
+    "id": 12,
+    "file": "project_test_012_af86d724.json",
+    "name": "Тест-012_ось9_вне3",
+    "n_axis": 9,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        127.82,
+        185.85
+      ],
+      [
+        121.94,
+        161.09
+      ],
+      [
+        171.8,
+        157.69
+      ]
+    ],
+    "tie": [
+      232.68,
+      195.01
+    ],
+    "fire": [
+      122.78,
+      64.43
+    ]
+  },
+  {
+    "id": 13,
+    "file": "project_test_013_3f36d884.json",
+    "name": "Тест-013_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        187.5,
+        128.03
+      ]
+    ],
+    "tie": [
+      214.67,
+      207.65
+    ],
+    "fire": [
+      115.27,
+      63.83
+    ]
+  },
+  {
+    "id": 14,
+    "file": "project_test_014_6aed630d.json",
+    "name": "Тест-014_ось9_вне5",
+    "n_axis": 9,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        136.07,
+        173.81
+      ],
+      [
+        151.94,
+        134.46
+      ],
+      [
+        105.8,
+        126.08
+      ],
+      [
+        161.9,
+        178.42
+      ],
+      [
+        151.26,
+        165.13
+      ]
+    ],
+    "tie": [
+      206.27,
+      164.0
+    ],
+    "fire": [
+      112.38,
+      58.36
+    ]
+  },
+  {
+    "id": 15,
+    "file": "project_test_015_b98a35c5.json",
+    "name": "Тест-015_ось8_вне3",
+    "n_axis": 8,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        166.33,
+        185.8
+      ],
+      [
+        140.57,
+        187.93
+      ],
+      [
+        125.0,
+        178.64
+      ]
+    ],
+    "tie": [
+      220.02,
+      170.74
+    ],
+    "fire": [
+      110.31,
+      49.44
+    ]
+  },
+  {
+    "id": 16,
+    "file": "project_test_016_4228a701.json",
+    "name": "Тест-016_ось10_вне4",
+    "n_axis": 10,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        125.33,
+        160.41
+      ],
+      [
+        155.23,
+        155.67
+      ],
+      [
+        113.91,
+        144.32
+      ],
+      [
+        141.34,
+        162.2
+      ]
+    ],
+    "tie": [
+      215.33,
+      192.8
+    ],
+    "fire": [
+      122.52,
+      64.79
+    ]
+  },
+  {
+    "id": 17,
+    "file": "project_test_017_199a8aeb.json",
+    "name": "Тест-017_ось10_вне3",
+    "n_axis": 10,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        109.94,
+        177.18
+      ],
+      [
+        183.09,
+        125.36
+      ],
+      [
+        177.38,
+        137.74
+      ]
+    ],
+    "tie": [
+      207.86,
+      205.31
+    ],
+    "fire": [
+      115.22,
+      57.09
+    ]
+  },
+  {
+    "id": 18,
+    "file": "project_test_018_4fb8ef92.json",
+    "name": "Тест-018_ось9_вне5",
+    "n_axis": 9,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        181.59,
+        124.83
+      ],
+      [
+        123.33,
+        186.51
+      ],
+      [
+        141.77,
+        141.12
+      ],
+      [
+        159.06,
+        126.48
+      ],
+      [
+        158.99,
+        174.26
+      ]
+    ],
+    "tie": [
+      214.47,
+      195.23
+    ],
+    "fire": [
+      113.6,
+      60.82
+    ]
+  },
+  {
+    "id": 19,
+    "file": "project_test_019_736ee38c.json",
+    "name": "Тест-019_ось5_вне4",
+    "n_axis": 5,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        116.11,
+        159.0
+      ],
+      [
+        131.52,
+        130.1
+      ],
+      [
+        141.58,
+        185.14
+      ],
+      [
+        156.88,
+        124.49
+      ]
+    ],
+    "tie": [
+      207.74,
+      197.15
+    ],
+    "fire": [
+      116.91,
+      64.93
+    ]
+  },
+  {
+    "id": 20,
+    "file": "project_test_020_a9d159a5.json",
+    "name": "Тест-020_ось6_вне1",
+    "n_axis": 6,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        114.16,
+        192.86
+      ]
+    ],
+    "tie": [
+      190.28,
+      213.39
+    ],
+    "fire": [
+      110.66,
+      51.04
+    ]
+  },
+  {
+    "id": 21,
+    "file": "project_test_021_57a4f446.json",
+    "name": "Тест-021_ось7_вне2",
+    "n_axis": 7,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        112.28,
+        154.88
+      ],
+      [
+        133.49,
+        135.91
+      ]
+    ],
+    "tie": [
+      218.8,
+      168.88
+    ],
+    "fire": [
+      119.72,
+      51.64
+    ]
+  },
+  {
+    "id": 22,
+    "file": "project_test_022_a8929ceb.json",
+    "name": "Тест-022_ось7_вне4",
+    "n_axis": 7,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        135.64,
+        146.25
+      ],
+      [
+        102.35,
+        172.23
+      ],
+      [
+        141.47,
+        169.68
+      ],
+      [
+        152.38,
+        181.88
+      ]
+    ],
+    "tie": [
+      156.71,
+      218.67
+    ],
+    "fire": [
+      111.17,
+      64.57
+    ]
+  },
+  {
+    "id": 23,
+    "file": "project_test_023_ee04e1b8.json",
+    "name": "Тест-023_ось6_вне1",
+    "n_axis": 6,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        105.02,
+        147.65
+      ]
+    ],
+    "tie": [
+      187.78,
+      182.9
+    ],
+    "fire": [
+      111.5,
+      50.53
+    ]
+  },
+  {
+    "id": 24,
+    "file": "project_test_024_3517b3d0.json",
+    "name": "Тест-024_ось9_вне4",
+    "n_axis": 9,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        150.04,
+        159.71
+      ],
+      [
+        181.92,
+        174.33
+      ],
+      [
+        160.13,
+        173.13
+      ],
+      [
+        168.48,
+        187.62
+      ]
+    ],
+    "tie": [
+      210.52,
+      218.14
+    ],
+    "fire": [
+      115.48,
+      55.85
+    ]
+  },
+  {
+    "id": 25,
+    "file": "project_test_025_98bb1071.json",
+    "name": "Тест-025_ось5_вне1",
+    "n_axis": 5,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        96.3,
+        167.13
+      ]
+    ],
+    "tie": [
+      164.12,
+      197.81
+    ],
+    "fire": [
+      123.82,
+      46.96
+    ]
+  },
+  {
+    "id": 26,
+    "file": "project_test_026_0b5a94e4.json",
+    "name": "Тест-026_ось5_вне5",
+    "n_axis": 5,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        138.79,
+        127.43
+      ],
+      [
+        121.13,
+        165.54
+      ],
+      [
+        101.39,
+        152.3
+      ],
+      [
+        111.36,
+        177.33
+      ],
+      [
+        144.62,
+        162.06
+      ]
+    ],
+    "tie": [
+      165.5,
+      200.06
+    ],
+    "fire": [
+      107.66,
+      56.85
+    ]
+  },
+  {
+    "id": 27,
+    "file": "project_test_027_014c6df7.json",
+    "name": "Тест-027_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        138.15,
+        161.43
+      ]
+    ],
+    "tie": [
+      228.4,
+      188.13
+    ],
+    "fire": [
+      123.34,
+      48.23
+    ]
+  },
+  {
+    "id": 28,
+    "file": "project_test_028_89ffe3e0.json",
+    "name": "Тест-028_ось5_вне4",
+    "n_axis": 5,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        105.28,
+        128.19
+      ],
+      [
+        136.39,
+        169.61
+      ],
+      [
+        108.95,
+        167.21
+      ],
+      [
+        151.28,
+        131.72
+      ]
+    ],
+    "tie": [
+      205.02,
+      202.56
+    ],
+    "fire": [
+      121.03,
+      51.95
+    ]
+  },
+  {
+    "id": 29,
+    "file": "project_test_029_6a02d715.json",
+    "name": "Тест-029_ось10_вне4",
+    "n_axis": 10,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        96.23,
+        129.24
+      ],
+      [
+        104.71,
+        169.53
+      ],
+      [
+        168.63,
+        176.61
+      ],
+      [
+        120.64,
+        183.59
+      ]
+    ],
+    "tie": [
+      190.76,
+      194.19
+    ],
+    "fire": [
+      115.25,
+      53.54
+    ]
+  },
+  {
+    "id": 30,
+    "file": "project_test_030_6687ca9d.json",
+    "name": "Тест-030_ось8_вне2",
+    "n_axis": 8,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        110.37,
+        162.48
+      ],
+      [
+        162.47,
+        146.32
+      ]
+    ],
+    "tie": [
+      233.01,
+      183.17
+    ],
+    "fire": [
+      107.78,
+      46.41
+    ]
+  },
+  {
+    "id": 31,
+    "file": "project_test_031_e3d8a0df.json",
+    "name": "Тест-031_ось5_вне5",
+    "n_axis": 5,
+    "n_off": 5,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        108.95,
+        164.96
+      ],
+      [
+        140.22,
+        158.9
+      ],
+      [
+        133.15,
+        134.11
+      ],
+      [
+        119.25,
+        132.63
+      ],
+      [
+        150.58,
+        185.28
+      ]
+    ],
+    "tie": [
+      155.46,
+      181.95
+    ],
+    "fire": [
+      113.15,
+      47.65
+    ]
+  },
+  {
+    "id": 32,
+    "file": "project_test_032_54c48ab1.json",
+    "name": "Тест-032_ось7_вне1",
+    "n_axis": 7,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        120.28,
+        158.41
+      ]
+    ],
+    "tie": [
+      161.89,
+      191.64
+    ],
+    "fire": [
+      105.37,
+      48.17
+    ]
+  },
+  {
+    "id": 33,
+    "file": "project_test_033_4f07e637.json",
+    "name": "Тест-033_ось5_вне1",
+    "n_axis": 5,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        157.69,
+        163.38
+      ]
+    ],
+    "tie": [
+      201.9,
+      157.92
+    ],
+    "fire": [
+      106.31,
+      63.04
+    ]
+  },
+  {
+    "id": 34,
+    "file": "project_test_034_4ed86457.json",
+    "name": "Тест-034_ось9_вне3",
+    "n_axis": 9,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        171.76,
+        141.66
+      ],
+      [
+        112.01,
+        182.33
+      ],
+      [
+        169.53,
+        168.27
+      ]
+    ],
+    "tie": [
+      203.82,
+      207.5
+    ],
+    "fire": [
+      123.39,
+      49.75
+    ]
+  },
+  {
+    "id": 35,
+    "file": "project_test_035_e310c02c.json",
+    "name": "Тест-035_ось8_вне4",
+    "n_axis": 8,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        173.57,
+        158.15
+      ],
+      [
+        124.33,
+        165.38
+      ],
+      [
+        121.06,
+        133.43
+      ],
+      [
+        179.33,
+        139.88
+      ]
+    ],
+    "tie": [
+      214.95,
+      192.52
+    ],
+    "fire": [
+      117.57,
+      55.34
+    ]
+  },
+  {
+    "id": 36,
+    "file": "project_test_036_24a9861f.json",
+    "name": "Тест-036_ось6_вне3",
+    "n_axis": 6,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        112.29,
+        126.03
+      ],
+      [
+        102.76,
+        192.34
+      ],
+      [
+        159.86,
+        123.67
+      ]
+    ],
+    "tie": [
+      183.35,
+      156.95
+    ],
+    "fire": [
+      107.19,
+      51.53
+    ]
+  },
+  {
+    "id": 37,
+    "file": "project_test_037_e40e1b3f.json",
+    "name": "Тест-037_ось8_вне5",
+    "n_axis": 8,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        100.74,
+        181.2
+      ],
+      [
+        99.62,
+        168.0
+      ],
+      [
+        112.18,
+        184.87
+      ],
+      [
+        166.16,
+        150.67
+      ],
+      [
+        143.99,
+        125.33
+      ]
+    ],
+    "tie": [
+      210.67,
+      181.34
+    ],
+    "fire": [
+      116.79,
+      60.52
+    ]
+  },
+  {
+    "id": 38,
+    "file": "project_test_038_431ef5b4.json",
+    "name": "Тест-038_ось5_вне2",
+    "n_axis": 5,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        133.73,
+        172.81
+      ],
+      [
+        98.49,
+        189.61
+      ]
+    ],
+    "tie": [
+      149.68,
+      208.39
+    ],
+    "fire": [
+      118.25,
+      54.0
+    ]
+  },
+  {
+    "id": 39,
+    "file": "project_test_039_71b7a662.json",
+    "name": "Тест-039_ось6_вне4",
+    "n_axis": 6,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        132.13,
+        171.46
+      ],
+      [
+        132.98,
+        155.88
+      ],
+      [
+        165.6,
+        191.87
+      ],
+      [
+        149.08,
+        188.55
+      ]
+    ],
+    "tie": [
+      174.82,
+      175.1
+    ],
+    "fire": [
+      106.14,
+      53.25
+    ]
+  },
+  {
+    "id": 40,
+    "file": "project_test_040_9050c07f.json",
+    "name": "Тест-040_ось5_вне1",
+    "n_axis": 5,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        126.21,
+        194.55
+      ]
+    ],
+    "tie": [
+      165.85,
+      168.0
+    ],
+    "fire": [
+      118.2,
+      58.78
+    ]
+  },
+  {
+    "id": 41,
+    "file": "project_test_041_848a5b33.json",
+    "name": "Тест-041_ось6_вне1",
+    "n_axis": 6,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        163.13,
+        172.36
+      ]
+    ],
+    "tie": [
+      165.79,
+      205.46
+    ],
+    "fire": [
+      117.44,
+      48.65
+    ]
+  },
+  {
+    "id": 42,
+    "file": "project_test_042_8577bed3.json",
+    "name": "Тест-042_ось8_вне3",
+    "n_axis": 8,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        131.59,
+        165.81
+      ],
+      [
+        118.7,
+        192.94
+      ],
+      [
+        129.97,
+        135.14
+      ]
+    ],
+    "tie": [
+      225.83,
+      163.32
+    ],
+    "fire": [
+      107.36,
+      56.29
+    ]
+  },
+  {
+    "id": 43,
+    "file": "project_test_043_a6887afb.json",
+    "name": "Тест-043_ось10_вне2",
+    "n_axis": 10,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        116.2,
+        169.62
+      ],
+      [
+        188.02,
+        154.04
+      ]
+    ],
+    "tie": [
+      191.94,
+      205.52
+    ],
+    "fire": [
+      110.34,
+      59.78
+    ]
+  },
+  {
+    "id": 44,
+    "file": "project_test_044_4d30d730.json",
+    "name": "Тест-044_ось7_вне3",
+    "n_axis": 7,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        112.47,
+        163.29
+      ],
+      [
+        146.84,
+        143.71
+      ],
+      [
+        136.06,
+        156.85
+      ]
+    ],
+    "tie": [
+      189.75,
+      216.88
+    ],
+    "fire": [
+      105.75,
+      54.92
+    ]
+  },
+  {
+    "id": 45,
+    "file": "project_test_045_5c7c6d1d.json",
+    "name": "Тест-045_ось7_вне4",
+    "n_axis": 7,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        173.12,
+        154.45
+      ],
+      [
+        112.22,
+        157.36
+      ],
+      [
+        117.1,
+        180.46
+      ],
+      [
+        136.22,
+        144.44
+      ]
+    ],
+    "tie": [
+      207.25,
+      201.48
+    ],
+    "fire": [
+      122.72,
+      49.83
+    ]
+  },
+  {
+    "id": 46,
+    "file": "project_test_046_f498de80.json",
+    "name": "Тест-046_ось5_вне2",
+    "n_axis": 5,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        112.75,
+        166.45
+      ],
+      [
+        141.88,
+        139.1
+      ]
+    ],
+    "tie": [
+      207.63,
+      185.27
+    ],
+    "fire": [
+      124.83,
+      48.66
+    ]
+  },
+  {
+    "id": 47,
+    "file": "project_test_047_c17acf1b.json",
+    "name": "Тест-047_ось6_вне2",
+    "n_axis": 6,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        128.58,
+        135.51
+      ],
+      [
+        155.51,
+        156.69
+      ]
+    ],
+    "tie": [
+      200.49,
+      205.57
+    ],
+    "fire": [
+      115.38,
+      52.44
+    ]
+  },
+  {
+    "id": 48,
+    "file": "project_test_048_6194d335.json",
+    "name": "Тест-048_ось9_вне5",
+    "n_axis": 9,
+    "n_off": 5,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        141.31,
+        194.11
+      ],
+      [
+        168.39,
+        164.67
+      ],
+      [
+        141.96,
+        181.52
+      ],
+      [
+        158.67,
+        136.71
+      ],
+      [
+        106.17,
+        160.8
+      ]
+    ],
+    "tie": [
+      194.43,
+      184.84
+    ],
+    "fire": [
+      120.43,
+      49.19
+    ]
+  },
+  {
+    "id": 49,
+    "file": "project_test_049_9ae73a2f.json",
+    "name": "Тест-049_ось6_вне3",
+    "n_axis": 6,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        161.16,
+        123.63
+      ],
+      [
+        150.56,
+        193.52
+      ],
+      [
+        139.63,
+        133.21
+      ]
+    ],
+    "tie": [
+      165.1,
+      175.14
+    ],
+    "fire": [
+      105.6,
+      46.39
+    ]
+  },
+  {
+    "id": 50,
+    "file": "project_test_050_f79347bd.json",
+    "name": "Тест-050_ось9_вне4",
+    "n_axis": 9,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        111.66,
+        179.01
+      ],
+      [
+        102.43,
+        136.68
+      ],
+      [
+        151.25,
+        156.35
+      ],
+      [
+        114.79,
+        152.15
+      ]
+    ],
+    "tie": [
+      238.3,
+      204.11
+    ],
+    "fire": [
+      109.12,
+      57.39
+    ]
+  },
+  {
+    "id": 51,
+    "file": "project_test_051_a9b3599b.json",
+    "name": "Тест-051_ось8_вне4",
+    "n_axis": 8,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        175.88,
+        146.56
+      ],
+      [
+        139.79,
+        145.21
+      ],
+      [
+        147.99,
+        184.22
+      ],
+      [
+        126.41,
+        146.87
+      ]
+    ],
+    "tie": [
+      228.39,
+      210.67
+    ],
+    "fire": [
+      120.43,
+      57.42
+    ]
+  },
+  {
+    "id": 52,
+    "file": "project_test_052_8a6c4aa1.json",
+    "name": "Тест-052_ось8_вне2",
+    "n_axis": 8,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        162.8,
+        152.67
+      ],
+      [
+        99.97,
+        147.68
+      ]
+    ],
+    "tie": [
+      184.58,
+      162.54
+    ],
+    "fire": [
+      116.63,
+      62.55
+    ]
+  },
+  {
+    "id": 53,
+    "file": "project_test_053_bf360ab1.json",
+    "name": "Тест-053_ось6_вне1",
+    "n_axis": 6,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        136.26,
+        187.77
+      ]
+    ],
+    "tie": [
+      161.81,
+      185.54
+    ],
+    "fire": [
+      108.45,
+      53.52
+    ]
+  },
+  {
+    "id": 54,
+    "file": "project_test_054_a6558289.json",
+    "name": "Тест-054_ось10_вне2",
+    "n_axis": 10,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        165.06,
+        144.89
+      ],
+      [
+        100.35,
+        148.23
+      ]
+    ],
+    "tie": [
+      200.32,
+      192.79
+    ],
+    "fire": [
+      109.52,
+      54.98
+    ]
+  },
+  {
+    "id": 55,
+    "file": "project_test_055_96822cea.json",
+    "name": "Тест-055_ось7_вне4",
+    "n_axis": 7,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        165.31,
+        158.0
+      ],
+      [
+        134.42,
+        168.88
+      ],
+      [
+        133.66,
+        189.08
+      ],
+      [
+        100.54,
+        173.92
+      ]
+    ],
+    "tie": [
+      181.74,
+      206.94
+    ],
+    "fire": [
+      116.92,
+      54.54
+    ]
+  },
+  {
+    "id": 56,
+    "file": "project_test_056_c014b2ed.json",
+    "name": "Тест-056_ось6_вне5",
+    "n_axis": 6,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        117.27,
+        178.04
+      ],
+      [
+        154.22,
+        174.83
+      ],
+      [
+        114.57,
+        159.31
+      ],
+      [
+        160.83,
+        189.3
+      ],
+      [
+        156.58,
+        122.72
+      ]
+    ],
+    "tie": [
+      202.97,
+      178.9
+    ],
+    "fire": [
+      112.05,
+      64.97
+    ]
+  },
+  {
+    "id": 57,
+    "file": "project_test_057_121a4348.json",
+    "name": "Тест-057_ось7_вне4",
+    "n_axis": 7,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        99.6,
+        135.28
+      ],
+      [
+        158.11,
+        159.13
+      ],
+      [
+        112.9,
+        188.67
+      ],
+      [
+        112.94,
+        152.9
+      ]
+    ],
+    "tie": [
+      191.96,
+      208.59
+    ],
+    "fire": [
+      120.17,
+      49.05
+    ]
+  },
+  {
+    "id": 58,
+    "file": "project_test_058_16939b16.json",
+    "name": "Тест-058_ось6_вне4",
+    "n_axis": 6,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        106.26,
+        167.92
+      ],
+      [
+        107.35,
+        127.12
+      ],
+      [
+        168.19,
+        186.12
+      ],
+      [
+        126.49,
+        133.61
+      ]
+    ],
+    "tie": [
+      217.51,
+      205.0
+    ],
+    "fire": [
+      113.99,
+      62.51
+    ]
+  },
+  {
+    "id": 59,
+    "file": "project_test_059_9f1ecfe8.json",
+    "name": "Тест-059_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        100.46,
+        178.15
+      ]
+    ],
+    "tie": [
+      186.72,
+      199.13
+    ],
+    "fire": [
+      122.35,
+      63.01
+    ]
+  },
+  {
+    "id": 60,
+    "file": "project_test_060_4ace864f.json",
+    "name": "Тест-060_ось10_вне5",
+    "n_axis": 10,
+    "n_off": 5,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        156.66,
+        147.91
+      ],
+      [
+        191.58,
+        177.68
+      ],
+      [
+        130.82,
+        161.67
+      ],
+      [
+        95.46,
+        188.05
+      ],
+      [
+        113.09,
+        135.74
+      ]
+    ],
+    "tie": [
+      209.21,
+      164.09
+    ],
+    "fire": [
+      118.44,
+      46.3
+    ]
+  },
+  {
+    "id": 61,
+    "file": "project_test_061_4203d851.json",
+    "name": "Тест-061_ось10_вне3",
+    "n_axis": 10,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        156.63,
+        131.92
+      ],
+      [
+        129.85,
+        180.17
+      ],
+      [
+        169.93,
+        168.84
+      ]
+    ],
+    "tie": [
+      213.35,
+      204.18
+    ],
+    "fire": [
+      113.19,
+      63.64
+    ]
+  },
+  {
+    "id": 62,
+    "file": "project_test_062_1cdd0549.json",
+    "name": "Тест-062_ось6_вне1",
+    "n_axis": 6,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        161.23,
+        186.29
+      ]
+    ],
+    "tie": [
+      202.65,
+      191.81
+    ],
+    "fire": [
+      106.24,
+      64.59
+    ]
+  },
+  {
+    "id": 63,
+    "file": "project_test_063_76810e48.json",
+    "name": "Тест-063_ось10_вне2",
+    "n_axis": 10,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        139.57,
+        129.98
+      ],
+      [
+        109.82,
+        190.34
+      ]
+    ],
+    "tie": [
+      240.51,
+      185.14
+    ],
+    "fire": [
+      120.47,
+      60.84
+    ]
+  },
+  {
+    "id": 64,
+    "file": "project_test_064_2fb871b9.json",
+    "name": "Тест-064_ось9_вне3",
+    "n_axis": 9,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        111.78,
+        124.86
+      ],
+      [
+        182.44,
+        127.65
+      ],
+      [
+        157.67,
+        122.78
+      ]
+    ],
+    "tie": [
+      223.86,
+      193.7
+    ],
+    "fire": [
+      122.17,
+      46.76
+    ]
+  },
+  {
+    "id": 65,
+    "file": "project_test_065_d70e8a6b.json",
+    "name": "Тест-065_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        143.74,
+        179.5
+      ]
+    ],
+    "tie": [
+      214.41,
+      161.04
+    ],
+    "fire": [
+      122.67,
+      48.85
+    ]
+  },
+  {
+    "id": 66,
+    "file": "project_test_066_d51aeee8.json",
+    "name": "Тест-066_ось9_вне3",
+    "n_axis": 9,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        111.03,
+        183.64
+      ],
+      [
+        147.86,
+        179.11
+      ],
+      [
+        112.66,
+        154.07
+      ]
+    ],
+    "tie": [
+      170.8,
+      194.77
+    ],
+    "fire": [
+      113.08,
+      55.76
+    ]
+  },
+  {
+    "id": 67,
+    "file": "project_test_067_aa6c8f20.json",
+    "name": "Тест-067_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        193.41,
+        135.84
+      ]
+    ],
+    "tie": [
+      205.7,
+      206.3
+    ],
+    "fire": [
+      119.36,
+      45.77
+    ]
+  },
+  {
+    "id": 68,
+    "file": "project_test_068_bee0aead.json",
+    "name": "Тест-068_ось8_вне5",
+    "n_axis": 8,
+    "n_off": 5,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        160.54,
+        189.22
+      ],
+      [
+        174.64,
+        173.44
+      ],
+      [
+        95.13,
+        128.31
+      ],
+      [
+        156.12,
+        158.25
+      ],
+      [
+        182.24,
+        149.37
+      ]
+    ],
+    "tie": [
+      215.46,
+      181.28
+    ],
+    "fire": [
+      113.76,
+      57.8
+    ]
+  },
+  {
+    "id": 69,
+    "file": "project_test_069_033d3a0a.json",
+    "name": "Тест-069_ось7_вне2",
+    "n_axis": 7,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        171.18,
+        158.43
+      ],
+      [
+        106.89,
+        183.51
+      ]
+    ],
+    "tie": [
+      206.32,
+      178.55
+    ],
+    "fire": [
+      115.52,
+      58.44
+    ]
+  },
+  {
+    "id": 70,
+    "file": "project_test_070_23cea19e.json",
+    "name": "Тест-070_ось6_вне2",
+    "n_axis": 6,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        108.51,
+        122.85
+      ],
+      [
+        155.12,
+        164.26
+      ]
+    ],
+    "tie": [
+      203.9,
+      188.92
+    ],
+    "fire": [
+      123.21,
+      52.78
+    ]
+  },
+  {
+    "id": 71,
+    "file": "project_test_071_f583876b.json",
+    "name": "Тест-071_ось10_вне3",
+    "n_axis": 10,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        138.27,
+        122.26
+      ],
+      [
+        105.41,
+        173.88
+      ],
+      [
+        97.78,
+        158.08
+      ]
+    ],
+    "tie": [
+      188.8,
+      175.37
+    ],
+    "fire": [
+      107.12,
+      58.12
+    ]
+  },
+  {
+    "id": 72,
+    "file": "project_test_072_aef5e744.json",
+    "name": "Тест-072_ось7_вне3",
+    "n_axis": 7,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        116.87,
+        164.78
+      ],
+      [
+        105.49,
+        151.82
+      ],
+      [
+        100.22,
+        171.91
+      ]
+    ],
+    "tie": [
+      175.51,
+      161.49
+    ],
+    "fire": [
+      112.35,
+      59.69
+    ]
+  },
+  {
+    "id": 73,
+    "file": "project_test_073_98da474a.json",
+    "name": "Тест-073_ось6_вне4",
+    "n_axis": 6,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        123.49,
+        183.89
+      ],
+      [
+        138.12,
+        182.92
+      ],
+      [
+        144.43,
+        131.15
+      ],
+      [
+        108.32,
+        149.85
+      ]
+    ],
+    "tie": [
+      223.63,
+      185.07
+    ],
+    "fire": [
+      109.71,
+      55.44
+    ]
+  },
+  {
+    "id": 74,
+    "file": "project_test_074_cd6d6156.json",
+    "name": "Тест-074_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        133.52,
+        177.85
+      ]
+    ],
+    "tie": [
+      191.04,
+      218.24
+    ],
+    "fire": [
+      122.94,
+      59.55
+    ]
+  },
+  {
+    "id": 75,
+    "file": "project_test_075_9fa5e422.json",
+    "name": "Тест-075_ось8_вне5",
+    "n_axis": 8,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        178.42,
+        152.86
+      ],
+      [
+        108.14,
+        156.61
+      ],
+      [
+        129.46,
+        147.52
+      ],
+      [
+        178.46,
+        178.59
+      ],
+      [
+        105.5,
+        129.82
+      ]
+    ],
+    "tie": [
+      234.46,
+      172.98
+    ],
+    "fire": [
+      110.99,
+      48.62
+    ]
+  },
+  {
+    "id": 76,
+    "file": "project_test_076_d9247d58.json",
+    "name": "Тест-076_ось6_вне2",
+    "n_axis": 6,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        116.17,
+        135.22
+      ],
+      [
+        114.85,
+        168.83
+      ]
+    ],
+    "tie": [
+      209.32,
+      184.35
+    ],
+    "fire": [
+      113.95,
+      50.71
+    ]
+  },
+  {
+    "id": 77,
+    "file": "project_test_077_690441eb.json",
+    "name": "Тест-077_ось8_вне5",
+    "n_axis": 8,
+    "n_off": 5,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        177.46,
+        127.33
+      ],
+      [
+        163.16,
+        160.64
+      ],
+      [
+        120.15,
+        167.4
+      ],
+      [
+        108.52,
+        130.23
+      ],
+      [
+        179.54,
+        158.21
+      ]
+    ],
+    "tie": [
+      188.09,
+      176.68
+    ],
+    "fire": [
+      114.85,
+      49.11
+    ]
+  },
+  {
+    "id": 78,
+    "file": "project_test_078_b8abf3d2.json",
+    "name": "Тест-078_ось10_вне4",
+    "n_axis": 10,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        115.51,
+        155.57
+      ],
+      [
+        136.9,
+        194.55
+      ],
+      [
+        187.11,
+        138.89
+      ],
+      [
+        107.77,
+        131.34
+      ]
+    ],
+    "tie": [
+      248.78,
+      213.82
+    ],
+    "fire": [
+      113.26,
+      55.54
+    ]
+  },
+  {
+    "id": 79,
+    "file": "project_test_079_3e4a5e69.json",
+    "name": "Тест-079_ось5_вне1",
+    "n_axis": 5,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        118.39,
+        160.83
+      ]
+    ],
+    "tie": [
+      203.14,
+      203.5
+    ],
+    "fire": [
+      123.65,
+      47.72
+    ]
+  },
+  {
+    "id": 80,
+    "file": "project_test_080_1f66eef6.json",
+    "name": "Тест-080_ось5_вне2",
+    "n_axis": 5,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        152.38,
+        184.75
+      ],
+      [
+        128.42,
+        131.05
+      ]
+    ],
+    "tie": [
+      142.18,
+      219.3
+    ],
+    "fire": [
+      124.57,
+      47.55
+    ]
+  },
+  {
+    "id": 81,
+    "file": "project_test_081_67d56ee6.json",
+    "name": "Тест-081_ось7_вне3",
+    "n_axis": 7,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        102.07,
+        186.67
+      ],
+      [
+        171.08,
+        188.62
+      ],
+      [
+        111.82,
+        168.13
+      ]
+    ],
+    "tie": [
+      178.58,
+      211.7
+    ],
+    "fire": [
+      121.71,
+      47.67
+    ]
+  },
+  {
+    "id": 82,
+    "file": "project_test_082_c2e20c8d.json",
+    "name": "Тест-082_ось10_вне3",
+    "n_axis": 10,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        116.33,
+        178.73
+      ],
+      [
+        179.06,
+        126.57
+      ],
+      [
+        167.2,
+        189.34
+      ]
+    ],
+    "tie": [
+      240.86,
+      176.99
+    ],
+    "fire": [
+      122.5,
+      45.69
+    ]
+  },
+  {
+    "id": 83,
+    "file": "project_test_083_e4598bc1.json",
+    "name": "Тест-083_ось9_вне3",
+    "n_axis": 9,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        144.56,
+        184.85
+      ],
+      [
+        104.22,
+        158.28
+      ],
+      [
+        128.8,
+        194.79
+      ]
+    ],
+    "tie": [
+      211.46,
+      176.29
+    ],
+    "fire": [
+      113.43,
+      56.41
+    ]
+  },
+  {
+    "id": 84,
+    "file": "project_test_084_4807078a.json",
+    "name": "Тест-084_ось6_вне5",
+    "n_axis": 6,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        165.57,
+        143.79
+      ],
+      [
+        142.2,
+        146.81
+      ],
+      [
+        124.67,
+        147.37
+      ],
+      [
+        160.1,
+        189.66
+      ],
+      [
+        107.18,
+        175.01
+      ]
+    ],
+    "tie": [
+      216.81,
+      193.82
+    ],
+    "fire": [
+      107.23,
+      64.91
+    ]
+  },
+  {
+    "id": 85,
+    "file": "project_test_085_0c16f540.json",
+    "name": "Тест-085_ось9_вне2",
+    "n_axis": 9,
+    "n_off": 2,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        147.76,
+        183.0
+      ],
+      [
+        103.4,
+        153.57
+      ]
+    ],
+    "tie": [
+      206.71,
+      185.91
+    ],
+    "fire": [
+      119.16,
+      57.48
+    ]
+  },
+  {
+    "id": 86,
+    "file": "project_test_086_46714215.json",
+    "name": "Тест-086_ось5_вне2",
+    "n_axis": 5,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        147.54,
+        177.05
+      ],
+      [
+        121.52,
+        133.57
+      ]
+    ],
+    "tie": [
+      149.07,
+      184.41
+    ],
+    "fire": [
+      108.01,
+      54.81
+    ]
+  },
+  {
+    "id": 87,
+    "file": "project_test_087_06ae7665.json",
+    "name": "Тест-087_ось8_вне1",
+    "n_axis": 8,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        136.75,
+        160.65
+      ]
+    ],
+    "tie": [
+      183.41,
+      198.83
+    ],
+    "fire": [
+      114.27,
+      60.22
+    ]
+  },
+  {
+    "id": 88,
+    "file": "project_test_088_4ff32246.json",
+    "name": "Тест-088_ось7_вне5",
+    "n_axis": 7,
+    "n_off": 5,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        155.17,
+        138.61
+      ],
+      [
+        139.53,
+        136.46
+      ],
+      [
+        114.24,
+        185.17
+      ],
+      [
+        105.1,
+        164.17
+      ],
+      [
+        127.33,
+        167.76
+      ]
+    ],
+    "tie": [
+      174.63,
+      173.86
+    ],
+    "fire": [
+      121.94,
+      46.92
+    ]
+  },
+  {
+    "id": 89,
+    "file": "project_test_089_bb157bbb.json",
+    "name": "Тест-089_ось8_вне4",
+    "n_axis": 8,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        152.74,
+        135.38
+      ],
+      [
+        125.6,
+        142.08
+      ],
+      [
+        114.99,
+        149.1
+      ],
+      [
+        161.1,
+        153.75
+      ]
+    ],
+    "tie": [
+      168.69,
+      186.83
+    ],
+    "fire": [
+      107.56,
+      53.08
+    ]
+  },
+  {
+    "id": 90,
+    "file": "project_test_090_15d27af0.json",
+    "name": "Тест-090_ось6_вне4",
+    "n_axis": 6,
+    "n_off": 4,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        157.43,
+        194.12
+      ],
+      [
+        145.48,
+        168.34
+      ],
+      [
+        150.85,
+        144.37
+      ],
+      [
+        120.82,
+        184.37
+      ]
+    ],
+    "tie": [
+      190.84,
+      166.12
+    ],
+    "fire": [
+      110.78,
+      63.59
+    ]
+  },
+  {
+    "id": 91,
+    "file": "project_test_091_298d59c3.json",
+    "name": "Тест-091_ось10_вне1",
+    "n_axis": 10,
+    "n_off": 1,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        114.02,
+        161.71
+      ]
+    ],
+    "tie": [
+      221.83,
+      176.68
+    ],
+    "fire": [
+      111.8,
+      48.0
+    ]
+  },
+  {
+    "id": 92,
+    "file": "project_test_092_dab5aab3.json",
+    "name": "Тест-092_ось9_вне5",
+    "n_axis": 9,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        175.1,
+        168.46
+      ],
+      [
+        170.91,
+        150.64
+      ],
+      [
+        115.54,
+        165.08
+      ],
+      [
+        140.01,
+        142.08
+      ],
+      [
+        116.4,
+        187.3
+      ]
+    ],
+    "tie": [
+      201.38,
+      212.22
+    ],
+    "fire": [
+      108.88,
+      50.71
+    ]
+  },
+  {
+    "id": 93,
+    "file": "project_test_093_43781207.json",
+    "name": "Тест-093_ось10_вне3",
+    "n_axis": 10,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        156.83,
+        159.9
+      ],
+      [
+        181.82,
+        154.14
+      ],
+      [
+        182.42,
+        192.54
+      ]
+    ],
+    "tie": [
+      216.46,
+      189.34
+    ],
+    "fire": [
+      113.5,
+      59.87
+    ]
+  },
+  {
+    "id": 94,
+    "file": "project_test_094_5e5717b1.json",
+    "name": "Тест-094_ось7_вне4",
+    "n_axis": 7,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        102.15,
+        173.38
+      ],
+      [
+        157.04,
+        184.99
+      ],
+      [
+        143.19,
+        183.25
+      ],
+      [
+        127.71,
+        139.92
+      ]
+    ],
+    "tie": [
+      184.64,
+      178.04
+    ],
+    "fire": [
+      116.39,
+      58.53
+    ]
+  },
+  {
+    "id": 95,
+    "file": "project_test_095_48f0ec91.json",
+    "name": "Тест-095_ось6_вне1",
+    "n_axis": 6,
+    "n_off": 1,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        152.77,
+        176.21
+      ]
+    ],
+    "tie": [
+      149.59,
+      158.99
+    ],
+    "fire": [
+      108.66,
+      58.55
+    ]
+  },
+  {
+    "id": 96,
+    "file": "project_test_096_f81d6688.json",
+    "name": "Тест-096_ось9_вне5",
+    "n_axis": 9,
+    "n_off": 5,
+    "axis_kinds": [
+      "producer",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "injector",
+      "producer"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        130.95,
+        189.99
+      ],
+      [
+        169.35,
+        190.45
+      ],
+      [
+        111.74,
+        166.93
+      ],
+      [
+        115.12,
+        191.72
+      ],
+      [
+        99.46,
+        137.38
+      ]
+    ],
+    "tie": [
+      201.6,
+      155.58
+    ],
+    "fire": [
+      106.15,
+      58.64
+    ]
+  },
+  {
+    "id": 97,
+    "file": "project_test_097_62b424ec.json",
+    "name": "Тест-097_ось9_вне4",
+    "n_axis": 9,
+    "n_off": 4,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "injector",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "producer"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source",
+      "fresh_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        122.48,
+        157.02
+      ],
+      [
+        188.39,
+        171.37
+      ],
+      [
+        138.66,
+        163.08
+      ],
+      [
+        126.83,
+        173.2
+      ]
+    ],
+    "tie": [
+      197.95,
+      213.72
+    ],
+    "fire": [
+      112.84,
+      49.03
+    ]
+  },
+  {
+    "id": 98,
+    "file": "project_test_098_8d721cda.json",
+    "name": "Тест-098_ось10_вне3",
+    "n_axis": 10,
+    "n_off": 3,
+    "axis_kinds": [
+      "producer",
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        157.66,
+        136.74
+      ],
+      [
+        191.08,
+        143.34
+      ],
+      [
+        186.33,
+        171.07
+      ]
+    ],
+    "tie": [
+      207.66,
+      174.76
+    ],
+    "fire": [
+      121.89,
+      49.36
+    ]
+  },
+  {
+    "id": 99,
+    "file": "project_test_099_1c7b56dc.json",
+    "name": "Тест-099_ось9_вне3",
+    "n_axis": 9,
+    "n_off": 3,
+    "axis_kinds": [
+      "injector",
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "fresh_source",
+      "ppd_source",
+      "ppd_source"
+    ],
+    "off_xy": [
+      [
+        132.24,
+        132.22
+      ],
+      [
+        108.37,
+        154.54
+      ],
+      [
+        119.52,
+        129.88
+      ]
+    ],
+    "tie": [
+      231.53,
+      178.87
+    ],
+    "fire": [
+      105.24,
+      63.18
+    ]
+  },
+  {
+    "id": 100,
+    "file": "project_test_100_febd784c.json",
+    "name": "Тест-100_ось5_вне2",
+    "n_axis": 5,
+    "n_off": 2,
+    "axis_kinds": [
+      "injector",
+      "producer",
+      "producer",
+      "producer",
+      "injector"
+    ],
+    "off_kinds": [
+      "ppd_source",
+      "fresh_source"
+    ],
+    "off_xy": [
+      [
+        124.33,
+        153.55
+      ],
+      [
+        116.0,
+        194.81
+      ]
+    ],
+    "tie": [
+      164.66,
+      215.02
+    ],
+    "fire": [
+      107.86,
+      56.77
+    ]
+  }
+]
