@@ -169,7 +169,7 @@ class WellDialog(tk.Toplevel):
 class Editor(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Проектировщик кустовой площадки — ХРЕБЕТ v93c")
+        self.title("Проектировщик кустовой площадки — ХРЕБЕТ v93d")
         self.withdraw()
         self.geometry("1510x910")
         self.minsize(1120,700)
@@ -674,7 +674,7 @@ class Editor(tk.Tk):
         scrollbar.pack(side='right',fill='y')
         help_text.pack(side='left',fill='both',expand=True)
         rules='''
-ПРАВИЛА КОМПОНОВКИ · ХРЕБЕТ v93c
+ПРАВИЛА КОМПОНОВКИ · ХРЕБЕТ v93d
 
 1. ХРЕБЕТ. Уже на первом этапе формируется неизменяемая базовая часть между двумя возможными центральными плитами; сторона выбирается по большинству внеосевых физических элементов с учётом ручных ограничений. Параллелен оси НДС. Пять позиций по фиксированному порядку, но строятся только востребованные магистрали. Хребет одним торцом примыкает к центральной плите. Подключение боковой ветви к нему — тройник, даже в конечной точке (выход заглушён). Хребтовая труба является последним кандидатом для условного подъёма при пересечении.
 
@@ -1374,7 +1374,7 @@ class Editor(tk.Tk):
                 'Подробный протокол — «Детали» → «Фактические подключения».')
         elif self.workflow_stage in ('lines','plates'):
             self.summary.set(self.summary.get()+
-                '\n⚠ СВЯЗНОСТЬ: нет полного протокола, необходим повторный расчёт в v93c.')
+                '\n⚠ СВЯЗНОСТЬ: нет полного протокола, необходим повторный расчёт в v93d.')
         comparison=r.decision_trace.get('_global_comparison',{})
         if comparison and r.project.shared_corridors:
             base=comparison.get('direct_J')
@@ -1603,7 +1603,7 @@ class Editor(tk.Tk):
             corners=((slab.u_start,slab.v_min),(slab.u_end,slab.v_min),
                      (slab.u_end,slab.v_max),(slab.u_start,slab.v_max))
             pts=[coordinate for u,v in corners for coordinate in self.to_px(Pt(u,v))]
-            filler=slab.slab_type in ('transit_run','fire_transit_run')
+            filler=slab.slab_type in ('transit_run','fire_transit_run','external_transit_run')
             c.create_polygon(*pts,fill="#d9e3ec" if filler else "#efe1c7",
                              outline="#4f6f8a" if filler else "#a67b3e",width=2)
         # Защитные зоны 5 м учитываются расчётным ядром, но на плане скрыты.
@@ -1960,7 +1960,7 @@ class Editor(tk.Tk):
                 self.update_idletasks()
                 if not self.attributes('-fullscreen'):
                     self.geometry(f'{self.winfo_screenwidth()}x{self.winfo_screenheight()}+0+0')
-            self.title(f'«{self.current_name}» — Хребет v93c (два этапа)')
+            self.title(f'«{self.current_name}» — Хребет v93d (два этапа)')
             self._reset_to_elements()
             self.lift()
             self.focus_force()

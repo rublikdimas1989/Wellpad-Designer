@@ -92,7 +92,8 @@ def export_svg(r:Result,filename,pipe_mode:bool=False,show_well_guards:bool=Fals
     branch_plates=[slab for slab in r.slabs if slab.slab_type=='axial_branch']
     trunk_mid_plates=[slab for slab in r.slabs if slab.slab_type=='trunk_intermediate']
     endpoint_plates=[slab for slab in r.slabs if slab.slab_type in ('terminal_node','offaxis_branch','fire_terminal_node')]
-    transit_plates=[slab for slab in r.slabs if slab.slab_type in ('transit_run','fire_transit_run')]
+    transit_plates=[slab for slab in r.slabs if slab.slab_type in (
+        'transit_run','fire_transit_run','external_transit_run')]
     fitting_plates=[slab for slab in r.slabs if slab.slab_type=='fitting_support']
     support_plates=[slab for slab in r.slabs if slab.slab_type!='central']
     out.append('<g id="axial-junction-plates-3x1.75">')
@@ -128,6 +129,18 @@ def export_svg(r:Result,filename,pipe_mode:bool=False,show_well_guards:bool=Fals
                          ((slab.u_start,slab.v_min),(slab.u_end,slab.v_min),
                           (slab.u_end,slab.v_max),(slab.u_start,slab.v_max))])
         out.append(f'<polygon points="{points}" fill="#efe1c7" stroke="#a67b3e" stroke-width="2"/>')
+    out.append('</g>')
+    # Внешние/транзитные 1,2×3 — как в UI (песочные для external_transit_run).
+    out.append('<g id="transit-and-external-plates-1.2x3">')
+    for slab in transit_plates:
+        warm = slab.slab_type == 'external_transit_run'
+        fill = '#efe1c7' if warm else '#d9e3ec'
+        stroke = '#a67b3e' if warm else '#4f6f8a'
+        points=' '.join(f'{x:.2f},{y:.2f}' for x,y in
+                        [xy(Pt(u,v)) for u,v in
+                         ((slab.u_start,slab.v_min),(slab.u_end,slab.v_min),
+                          (slab.u_end,slab.v_max),(slab.u_start,slab.v_max))])
+        out.append(f'<polygon points="{points}" fill="{fill}" stroke="{stroke}" stroke-width="2"/>')
     out.append('</g>')
     if pipe_mode:
         out.append('<g id="pipe-contours-and-fittings">')
